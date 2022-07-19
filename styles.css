@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Product-Sans-Regular';
+  src: url(fonts/Product-Sans-Regular.ttf) format("truetype");
+}
+body{
+    font-family: 'Product-Sans-Regular' !important;
+}
+.navbar .container-fluid {
+  padding: 2%;
+}
+
+.btn {
+  margin-left: 13%;
+}
+
+/* First Section */
+.brand {
+  padding: 4% 0 0 7%;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.dev {
+  padding: 1% 0 0 7.5%;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.contact2 {
+  margin: 2% 0 0 8%;
+}
+
+.works {
+  margin: 2% 0 0 2%;
+}
+
+.first {
+  display: block;
+  padding: 4% 0 0 7%;
+  width: 90%;
+  height: auto;
+  align-content: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8% 35% 0 7%;
+}
+
+.about {
+  margin-left: 0;
+}
+
+/* Second Section */
+.works-title {
+  padding: 4% 0 3% 7%;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15% 0 7%;
+  justify-content: center;
+  gap: 2%;
+}
+
+.image-container>* {
+  flex: 0 1 30%;
+}
+
+.text {
+  padding: 3% 0 8% 0;
+  font-size: 1rem;
+}
+
+/* Third Section */
+.third-section {
+  background-color: black;
+}
+
+.reviews {
+  padding: 4% 0 0 7%;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 2%;
+  padding-bottom: 5%;
+}
+
+.third-section .grid-item {
+  color: white;
+  padding: 3% 7% 3% 7%;
+}
+
+.portrait {
+  width: 10%;
+  height: 70%;
+  border-radius: 50%;
+  padding: 1%;
+}
+
+h4 {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.checked {
+  color: gold;
+}
+
+/* Fourth Section */
+.faqs {
+  padding: 4% 0 2% 7%;
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+}
+
+.faq-q {
+  display: inline-block;
+  font-size: 3rem;
+  color: black;
+  padding: 3% 7% 3% 7%;
+}
+
+.faq-a {
+  color: darkgrey;
+  padding: 3% 7% 3% 7%;
+}
+
+/* Footer */
+.text-muted {
+  padding-top: 1%;
+}
+
+/* Media Query */
+@media (max-width: 800px) {
+  /* First Section */
+  .flex-container{
+   flex-wrap: wrap;
+  }
+.flex-item2{
+  padding-top: 15%;
+}
+  /* Reviews Section */
+  .third-section .grid-item {
+    padding: 3% 7% 50% 7%;
+  }
+
+  .portrait {
+    padding:0;
+  }
+
+}
