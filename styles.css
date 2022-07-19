@@ -144,7 +144,9 @@ h4 {
 
 /* Media Query */
 @media screen and (max-width: 450px) {
-
+body{
+  position: relative;
+}
   /* First Section */
   .flex-container {
     flex-wrap: wrap;
@@ -162,8 +164,11 @@ h4 {
     justify-content: center;
 padding: 0 40% 0 40%;
   }
-  .image-container .gallery3{
+  .image-container .gallery2{
   width: 40vh;
+  }
+  .image-container .gallery3{
+  width: 50vh;
   }
   .image-container>* {
     flex: 0 0 10%;
