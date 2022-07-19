@@ -141,7 +141,7 @@ h4 {
 }
 
 /* Media Query */
-@media (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   /* First Section */
   .flex-container{
    flex-wrap: wrap;
